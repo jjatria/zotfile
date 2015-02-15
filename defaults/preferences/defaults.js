@@ -8,6 +8,7 @@ pref("extensions.zotfile.allFiles", false);
 pref("extensions.zotfile.useZoteroToRename", false);
 pref("extensions.zotfile.renameFormat", "{%a_}{%y_}{%t}");
 pref("extensions.zotfile.renameFormat_patent", "{%a_}{%y_}{%t}");
+pref("extensions.zotfile.renameFormat_book", "{%a_}{%y_}{%t}");
 pref("extensions.zotfile.truncate_title", true);
 pref("extensions.zotfile.truncate_smart", true);
 pref("extensions.zotfile.truncate_title_max", true);

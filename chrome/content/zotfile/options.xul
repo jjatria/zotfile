@@ -29,7 +29,8 @@
 
 				<preference id="pref-zotfile-useZoteroToRename" name="extensions.zotfile.useZoteroToRename" type="bool"/>                                                                                              
 				<preference id="pref-zotfile-renameFormat" name="extensions.zotfile.renameFormat" type="string"/>                                                                                              
-				<preference id="pref-zotfile-renameFormat_patent" name="extensions.zotfile.renameFormat_patent" type="string"/>                                                                                              
+        <preference id="pref-zotfile-renameFormat_patent" name="extensions.zotfile.renameFormat_patent" type="string"/>                                                                                              
+				<preference id="pref-zotfile-renameFormat_book" name="extensions.zotfile.renameFormat_book" type="string"/>                                                                                              
 				<preference id="pref-zotfile-truncate_title" name="extensions.zotfile.truncate_title" type="bool"/>                                                                                              
 				<preference id="pref-zotfile-truncate_smart" name="extensions.zotfile.truncate_smart" type="bool"/>                                                                                              
 				<preference id="pref-zotfile-truncate_title_max" name="extensions.zotfile.truncate_title_max" type="bool"/>                                                                                              
@@ -251,8 +252,10 @@
 							
 						   	<separator/> 							   
 			
-							   <label id="id-zotfile-renameFormat-label" value="&format-for-all-types;"/>
-							   <textbox id="id-zotfile-renameFormat" preference="pref-zotfile-renameFormat" onchange="checkRenameFormat('renameFormat');"/>
+                 <label id="id-zotfile-renameFormat-label" value="&format-for-all-types;"/>
+                 <textbox id="id-zotfile-renameFormat" preference="pref-zotfile-renameFormat" onchange="checkRenameFormat('renameFormat');"/>
+							   <label id="id-zotfile-renameFormat_book-label" value="&format-for-books;"/>
+							   <textbox id="id-zotfile-renameFormat_book" preference="pref-zotfile-renameFormat_book" onchange="checkRenameFormat('renameFormat_book');"/>
 							   <label id="id-zotfile-renameFormat_patent-label" value="&format-for-patents;"/>
 							   <textbox id="id-zotfile-renameFormat_patent" preference="pref-zotfile-renameFormat_patent" onchange="checkRenameFormat('renameFormat_patent');"/>
 							   <label id="id-zotfile-renameFormat-des1" style="font-size: 9px" value="&list-of-wildcards;"/>					   							   

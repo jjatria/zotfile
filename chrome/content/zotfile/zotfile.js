@@ -1714,8 +1714,11 @@ Zotero.ZotFile = {
         if (!item.isRegularItem()) return(null);
         // rename format
         var item_type =  item.getType();
-        var rename_format_setting = item_type==19 ? this.prefs.getCharPref("renameFormat_patent") : this.prefs.getCharPref("renameFormat");
+        var rename_format_setting = item_type==19 ? this.prefs.getCharPref("renameFormat_patent") :
+                                    item_type==2  ? this.prefs.getCharPref("renameFormat_book") : this.prefs.getCharPref("renameFormat");
+
         rename_format = typeof rename_format !== 'undefined' ? rename_format : rename_format_setting;
+
         // create the new filename from the selected item
         var filename;
         if (!this.prefs.getBoolPref("useZoteroToRename")) {
@@ -1733,6 +1736,10 @@ Zotero.ZotFile = {
             // replace multiple blanks in filename with single blank & remove whitespace
             //var filename = filename.replace(/ {2,}/g, ' ');
             filename = Zotero.Utilities.trimInternal(filename);
+
+            // other character replacements
+            filename = filename.replace(/[',:!¿¡?]/, '');
+            filename = filename.replace(/&/, 'and');
 
             // replace blanks with '_' if option selected
             if (this.prefs.getBoolPref("replace_blanks"))  filename = filename.replace(/ /g, '_');

@@ -43,6 +43,7 @@
 <!ENTITY zotero-to-rename "Utilizza Zotero per Ridenominare">
 <!ENTITY format-for-all-types "Formato per tutti i tipi di oggetto escluso i Brevetti">
 <!ENTITY format-for-patents "Formato per Brevetti">
+<!ENTITY format-for-books "Formato per Libri">
 <!ENTITY list-of-wildcards "&#37;a = cognome autore; &#37;y = anno; &#37;t = titolo; &#37;j = pubblicazione; usa {...} per un  gruppo opzionale e | per accoppiamenti esclusivi">
 <!ENTITY for-a-full-list "Per un elenco completo dei segnaposto vedere ">
 <!ENTITY additional-settings "Impostazione Aggiuntive">
