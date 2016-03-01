@@ -1727,8 +1727,8 @@ Zotero.ZotFile = {
             //var filename =  author + "_" + year + "_" + title;
 
             // Strip potentially invalid characters
-            // (code line adopted from Zotero, modified to accept periods)
-            filename = filename.replace(/[\/\\\?\*:|"<>]/g, '');
+            // (code line adopted from Zotero, modified to accept periods and eliminate other characters)
+            filename = filename.replace(/[\/\\¡!¿\?\*,:;|"'<>]/g, '');
 
             // remove periods
             if (this.prefs.getBoolPref("removePeriods"))  filename = filename.replace(/\./g, '');
@@ -1737,10 +1737,6 @@ Zotero.ZotFile = {
             //var filename = filename.replace(/ {2,}/g, ' ');
             filename = Zotero.Utilities.trimInternal(filename);
 
-            // other character replacements
-            filename = filename.replace(/[',:!¿¡?]/, '');
-            filename = filename.replace(/&/, 'and');
-
             // replace blanks with '_' if option selected
             if (this.prefs.getBoolPref("replace_blanks"))  filename = filename.replace(/ /g, '_');
 
@@ -1748,7 +1744,12 @@ Zotero.ZotFile = {
             if (this.prefs.getBoolPref("lower_case"))  filename = filename.toLowerCase();
 
             // remove all the accents and other strange characters from filename
-            if (Zotero.version[0]>=3 && this.prefs.getBoolPref("removeDiacritics")) filename = Zotero.Utilities.removeDiacritics(filename);
+            if (Zotero.version[0]>=3 && this.prefs.getBoolPref("removeDiacritics")) {
+              filename = Zotero.Utilities.removeDiacritics(filename);
+
+              // other character replacements
+              filename = filename.replace(/&/g, 'and');
+            }
 
         }
         if (this.prefs.getBoolPref("useZoteroToRename")) filename=Zotero.Attachments.getFileBaseNameFromItem(item.itemID);
