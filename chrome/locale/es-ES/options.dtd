@@ -1,0 +1,85 @@
+<!ENTITY zotfile-preferences "Preferencias de ZotFile"> 
+<!ENTITY zotfile-prefpane "Preferencias de ZotFile"> 
+<!ENTITY general-settings "Configuración general"> 
+<!ENTITY tablet-settings "Configuración para tabletas"> 
+<!ENTITY renaming-rules "Reglas de cambio de nombre"> 
+<!ENTITY advanced-settings "Configuración avanzada"> 
+<!ENTITY attachments-source-folder "Directorio para adjuntar nuevos archivos"> 
+<!ENTITY source-folder-desc "ZotFile puede añadir el archivo modificado más recientemente del directorio de descargas de Firefox o cualquier otro como adjunto al item de Zotero seleccionado actualmente."> 
+<!ENTITY use-firefox-download-folder "Usar el directorio de descargas de Firefox"> 
+<!ENTITY custom-source-folder "Personalizado:"> 
+<!ENTITY choose "Escoge..."> 
+<!ENTITY location-of-files "Ubicación de los archivos"> 
+<!ENTITY target-location-desc "ZotFile puede mover los adjuntos nuevos y existentes a otras ubicaciones. Es posible guardar una copia del adjunto en Zotero, lo que permite sincronizar archivos con el servidor de Zotero, o moverlos a un directorio propio y enlazar a esa ubicación desde Zotero">
+<!ENTITY attach-stored-copy "Adjuntar una copia del archivo"> 
+<!ENTITY custom-location "Ubicación personalizada:"> 
+<!ENTITY use-subfolder "Usar subdirectorios por"> 
+<!ENTITY subfolder-information "Los subdirectorios se basan en los metadatos de los ítemes de Zotero. Usa &#37;a para el nombre del autor, &#37;y para el año, &#37;w para la publicación o editorial, o &#37;T para el tipo de item (ver el sitio de ZotFile para una lista completa). Es necesario insertar el separador apropiado (/ para Mac OS y otros sistemas Unix y \ para windows).">
+<!ENTITY for-more-information "Para mayor información, ver el "> 
+<!ENTITY zotfile-website "sitio de ZotFile"> 
+<!ENTITY consider-donation "Si te gusta este plugin, por favor considera hacer una ">
+<!ENTITY donation "donación">
+<!ENTITY tablet-desc "ZotFile puede agilizar el proceso de lectura y anotación de los adjuntos de Zotero en un iPad o una tableta Android que use una applicación para anotar PDFs. ZotFile manda el PDF a la tablet, y recive la copia anotada. El archivo es renombrado y guardado en subdirectorios para que puedas encontrarlo, y las anotaciones y destacados son extraídos y guardados como notas de Zotero">
+<!ENTITY send-get-from-tablet "Usar ZotFile para mandar y recibir archivos a una tableta">
+<!ENTITY location-on-tablet "Ubicación en la tableta">
+<!ENTITY base-folder "Directorio base">
+<!ENTITY show-folder "Ubicar el directorio">
+<!ENTITY dropbox "(DropBox o directorio alternativo que sincroniza con la aplicación de lectura en la tableta)">
+<!ENTITY subfolders "Subdirectorios">
+<!ENTITY no-subfolders "Sin subdirectorios">
+<!ENTITY create-subfolders "Crear subdirectorios por coleción de Zotero">
+<!ENTITY custom-subfolders "Subdirectorios personalizados">
+<!ENTITY change-subfolders "Cambiar subdirectorios">
+<!ENTITY use-additional-subfolders "Usar subdirectorios adicionales por ">
+<!ENTITY additional-subfolders "Los subdirectorios adicionales se basan en los metadatos de los ítemes de Zotero. Usa &#37;a para el nombre del autor, &#37;y para el año, &#37;w para la publicación o editorial, o &#37;T para el tipo de item (ver el sitio de ZotFile para una lista completa). Es necesario insertar el separador apropiado (/ para Mac OS y otros sistemas Unix y \ para windows).">
+<!ENTITY additional-options "Opciones adicionales">
+<!ENTITY rename-when-sent-to-tablet "Renombrar archivos cuando se mandan a la tableta">
+<!ENTITY save-annotated-file "Guardar una copia del archivo anotado con un sufijo ">
+<!ENTITY tablet-copy-information "Por defecto, el archivo guardado por Zotero es reemplazado por el que se recibe de la tableta. Al seleccionar esta opción, ZotFile crea en vez una copia del archivo con el sufijo especificado y añade esta copia como un adjunto adicional.">
+<!ENTITY automatically-extract-annotations "Extraer anotaciones automáticamente al recibir PDFs de la tableta">
+<!ENTITY preview-renaming-rules "Revisar las reglas de cambio de nombre">
+<!ENTITY update "Actualizar">
+<!ENTITY renaming-format "Formato de cambio de nombre">
+<!ENTITY zotero-to-rename "Usar Zotero para el cambio de nombre">
+<!ENTITY format-for-all-types "Formato para todos los tipos excepto patentes y libros">
+<!ENTITY format-for-patents "Formato para patentes">
+<!ENTITY format-for-books "Formato para libros">
+<!ENTITY list-of-wildcards "&#37;a = apellido del autor; &#37;y = año; &#37;t = título; &#37;j = publicación; usa {...} para grupos opcionales y | para grupos exclusivos">
+<!ENTITY for-a-full-list "Para una lista completa, ver ">
+<!ENTITY additional-settings "Configuración adicional">
+<!ENTITY delimiter-multiple-authors "Delimitador entre múltiples autores">
+<!ENTITY add-user-input-to-filename "Añadir input del usuario al nombre. Por defecto es ">
+<!ENTITY lower-case "Cambiar a minúsculas">
+<!ENTITY replace-blanks "Reemplazar espacios">
+<!ENTITY truncate-title "Cortar título después de . ó : ó ?">
+<!ENTITY zotfile-truncate_title_max "Longitud máxima del título">
+<!ENTITY zotfile-truncate_authors "Máximo número de autores">
+<!ENTITY zotfile-number_truncate_authors "Número de autores cuando se omiten autores">
+<!ENTITY zotfile-add_etal "Añadir un sufijo cuando se omiten autores">
+<!ENTITY extract-annotations "Extraer anotaciones y destacados de los archivos PDF">
+<!ENTITY extract-annotations-and-highlighted-text "ZotFile puede exrtraer las anotaciones  destacados de tus adjuntos en PDF.">
+<!ENTITY extraction-method "Método de extracción">
+<!ENTITY use-pdf-js "Usar pdf.js para las extracciones">
+<!ENTITY methods-to-extract-annotations "ZotFile soporta dos métodos para la extracción de anotaciones de tus PDFs.  El método basado en pdf.js es multi-plataforma y corre directamente desde Zotero. El método basado en poppler sólo funciona en Mac OS y requiere una descarga adicional. Actualmente, pdf.js es más confiable y debería servir en la mayoría de los casos. La opción con poppler, sin embargo, es más rápida y puede que soporte una mayor cantidad de estándares que los soportados por pdf.js.">
+<!ENTITY use-poppler "Usar poppler para las extracciones">
+<!ENTITY add-full-citation "Añadir cita textual completa al texto destacado en las notas">
+<!ENTITY use-article-book-chapter-page "Usar el capítulo actual del artículo o libro para los fragmentos de texto destacado">
+<!ENTITY page-number-determination "El número de página del artículo se determina añadiendo la página del archivo PDF al número inicial del rango de páginas especificado en los metadatos del item correspondiente. Este método falla si la primera página del archivo no es la primera página del capítulo">
+<!ENTITY other-advanced-settings "Otras configuraciones avanzadas">
+
+<!ENTITY watch_folder "Detectar archivos nuevos en el directorio fuente">
+
+<!ENTITY automatic_renaming_label "Renombrar adjuntos automáticamente">
+<!ENTITY automatic_renaming_no "Nunca">
+<!ENTITY automatic_renaming_ask "Preguntar siempre (no-disruptivo)">
+<!ENTITY automatic_renaming_ask_mult "Sólo preguntar con nuevos atributos">
+<!ENTITY automatic_renaming_always "Renombrar siempre">
+
+<!ENTITY ask-when-attaching-new-files "Preguntar cuando se agreguen nuevos archivos">
+<!ENTITY ask-to-batch-rename "Preguntar al mover o renombrar en bloque ">
+<!ENTITY or-more-attachments " o más adjuntos.">
+<!ENTITY remove-special-characters "Eliminar caracteres especiales (diacríticos) del nombre">
+<!ENTITY work-with-following-filetypes "Sólo procesar los siguientes tipos de archivo ">
+<!ENTITY add-saved-searches "Añadir búsquedas guardadas">
+<!ENTITY attachments-on-tablet "Adjuntos en la tableta">
+<!ENTITY modified-attachments-on-tablet "Adjuntos modificados en la tableta">

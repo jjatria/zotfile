@@ -1,0 +1,24 @@
+<!ENTITY zotfile-attach-file.label "Adjuntar archivo nuevo">
+<!ENTITY zotfile-attach-file.tooltiptext "Mover y adjuntar al item seleccionado el archivo más nuevo en el directorio especificado">
+<!ENTITY zotfile-manage-attachments.label "Organizar adjuntos">
+<!ENTITY warning.label "Advertencia">
+<!ENTITY renameSelectedAttachments.label "Renombrar adjuntos">
+<!ENTITY renameSelectedAttachments.tooltiptext "Mover y renombrar los adjuntos existentes del item seleccionado">
+<!ENTITY extract-annotations.label "Extraer anotaciones">
+<!ENTITY extract-annotations.tooltiptext "Extraer las anotaciones y destacados del archivo PDF">
+<!ENTITY pdf-outline.label "Obtener tabla de contenidos">
+<!ENTITY pdf-outline.tooltiptext "Obtener la tabla de contenidos del archivo PDF">
+<!ENTITY send-to-tablet "Enviar a la tablet">
+<!ENTITY send-attachment-file-to-tablet "Enviar el adjunto a la tablet">
+<!ENTITY update-file-modification-time "Actualizar tiempo de modificación">
+<!ENTITY sync-attachment-file "Sincronizar adjunto en la tablet con archivo en Zotero">
+<!ENTITY get-from-tablet "Obtener de la tablet">
+<!ENTITY get-attachment-file-from-tablet "Obtener el adjunto de la tablet">
+<!ENTITY send-to-subfolder-on-tablet "Enviar a subdirectorio en la tablet">
+<!ENTITY change-subfolders "Cambiar subdirectorios...">
+<!ENTITY add-and-delete-subfolders "Añadir o eliminar subdirectorios del menú">
+<!ENTITY zotfile-options.label "Preferencias de ZotFile...">
+<!ENTITY saved-search-all "Mostrar adjuntos de todos los subdirectorios">
+<!ENTITY saved-search-restrict "Restringir búsqueda guardada al subdirectorio">
+<!ENTITY restrict-subfolder "Restringir al subdirectorio...">
+<!ENTITY restrict-basefolder "Adjuntos no archivados">

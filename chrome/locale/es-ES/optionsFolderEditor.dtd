@@ -1,0 +1,3 @@
+<!ENTITY label "Etiqueta">
+<!ENTITY subfolder "Subdirectorio">
+<!ENTITY leave-empty "Dejar vacío para generar directorios automáticamente a partir de la etiqueta.">
